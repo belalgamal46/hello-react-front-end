@@ -68,13 +68,7 @@ You will need the following:
 
 - A code editor for example: Rubymine, Vscode
 - Ruby installed on your pc
-- Install rails on your pc you can use the following command to install it:
-
-  ```
-  gem install rails
-  ```
-
-- You will need PostgreSQL to be installed on your PC to handle the database if you are running the project locally, or you can use Docker for easier implementation.
+- Hello Rails Back End server is running on your pc
 
 ### Setup
 
@@ -93,13 +87,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```
-  gem install
-```
-
-**OR**
-
-```
-  bundle install
+  yarn
 ```
 
 ### Usage
@@ -107,15 +95,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-  rails db:create
-```
-
-```
-  rails db:migrate
-```
-
-```
-  rails db:seed
+  yarn dev
 ```
 
 <!-- AUTHORS -->
