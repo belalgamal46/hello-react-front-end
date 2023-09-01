@@ -1,0 +1,35 @@
+#greeting-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.greeting-title {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.success-message {
+  position: absolute;
+  top: 15%;
+  background-color: var(--success-color);
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.error-message {
+  position: absolute;
+  top: 15%;
+  background-color: var(--main-color);
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
