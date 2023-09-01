@@ -2,16 +2,18 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import GreetingMessages from './components/greetingMessages/GreetingMessages';
+import HomePage from './components/pages/homePage/HomePage';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <div>Home Page</div>,
+      element: <HomePage />,
     },
     {
-      path: '/greeting-messages',
-      element: <div>Greetings</div>,
+      path: 'greeting-messages',
+      element: <GreetingMessages />,
     },
   ]);
 
